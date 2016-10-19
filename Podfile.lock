@@ -1,0 +1,58 @@
+PODS:
+  - KIF (3.5.1):
+    - KIF/Core (= 3.5.1)
+  - KIF/Core (3.5.1)
+  - Nimble (5.0.0-alpha.30p1)
+  - Realm (2.0.2):
+    - Realm/Headers (= 2.0.2)
+  - Realm/Headers (2.0.2)
+  - RealmSwift (2.0.2):
+    - Realm (= 2.0.2)
+
+DEPENDENCIES:
+  - KIF (from `https://github.com/kif-framework/KIF.git`, branch `master`)
+  - Nimble (from `https://github.com/Quick/Nimble.git`, commit `db706fc`)
+  - Realm (from `https://github.com/realm/realm-cocoa.git`, branch `master`)
+  - RealmSwift (from `https://github.com/realm/realm-cocoa.git`, branch `master`)
+
+EXTERNAL SOURCES:
+  KIF:
+    :branch: master
+    :git: https://github.com/kif-framework/KIF.git
+  Nimble:
+    :commit: db706fc
+    :git: https://github.com/Quick/Nimble.git
+  Realm:
+    :branch: master
+    :git: https://github.com/realm/realm-cocoa.git
+    :submodules: true
+  RealmSwift:
+    :branch: master
+    :git: https://github.com/realm/realm-cocoa.git
+    :submodules: true
+
+CHECKOUT OPTIONS:
+  KIF:
+    :commit: 13f543388167c575d0e47f94f52b0f2c7038ed2c
+    :git: https://github.com/kif-framework/KIF.git
+  Nimble:
+    :commit: db706fc
+    :git: https://github.com/Quick/Nimble.git
+  Realm:
+    :commit: 69b4144c71d0224a82f2948884286906c173c2fc
+    :git: https://github.com/realm/realm-cocoa.git
+    :submodules: true
+  RealmSwift:
+    :commit: 69b4144c71d0224a82f2948884286906c173c2fc
+    :git: https://github.com/realm/realm-cocoa.git
+    :submodules: true
+
+SPEC CHECKSUMS:
+  KIF: 082eb65279e51c3092923802849eb796a04982ab
+  Nimble: c5b995b4cd57789ec44b0cfb79640fc00e61a8c7
+  Realm: 0f5a194af0b7e6158b83db41b4ee1a00be7ddf1a
+  RealmSwift: 0eb5070d851cba7c66e841ca756d83609dc78bc8
+
+PODFILE CHECKSUM: 252b3b12b1328969d4ef2309ecb9af67cce2cbef
+
+COCOAPODS: 1.0.1
